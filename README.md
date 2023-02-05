@@ -1,5 +1,11 @@
 Spotify in Redux
 
+
+
+![Cattura_2](https://user-images.githubusercontent.com/98649610/216810822-a2d823e9-db38-46a0-abd9-b26a615c14cb.JPG)
+
+
+
 Comincia partendo dall’applicazione Spotify che trovi in fondo a questa pagina. 
 Oggi i tuoi compiti saranno quelli di creare un’applicazione React da quel progetto e gestirne lo stato in Redux.
 
