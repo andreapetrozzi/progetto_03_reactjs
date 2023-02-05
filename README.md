@@ -3,41 +3,23 @@
 Create a React application from that project and manage its state in Redux.
 
 Features:
-     1. Rewrite the application using React, keeping the current functionality unchanged
-        (don't forget the routes to manage the three main screens and the search function in the sidebar)
 
-     2. Once complete, install the packages needed to implement Redux
-        By clicking on a song, the name and details should appear in the "music player",
-        the section at the bottom of the page showing the listening controls (uses Redux)
+1. Rewrite the application using React, keeping the current functionality unchanged
+   (don't forget the routes to manage the three main screens and the search function in the sidebar)
 
-     3. Next to each song you will need to add the functionality to "Like" the song.
-        From then on, whenever the song appears, the "like" status should reflect the one saved in Redux
+2. Once complete, install the packages needed to implement Redux
+   By clicking on a song, the name and details should appear in the "music player",
+   the section at the bottom of the page showing the listening controls (uses Redux)
+
+3. Next to each song you will need to add the functionality to "Like" the song.
+   From then on, whenever the song appears, the "like" status should reflect the one saved in Redux
     
-     [EXTRA] Save the search results you get from the APIs to the Redux store as well
-     [EXTRA] The ability to add songs to other playlists than the regular play queue
+Save the search results you get from the APIs to the Redux store as well
+The ability to add songs to other playlists than the regular play queue
 
 
 ### Sceen Homepage
 ![Cattura_2](https://user-images.githubusercontent.com/98649610/216810822-a2d823e9-db38-46a0-abd9-b26a615c14cb.JPG)
-
-
-
-Comincia partendo dall’applicazione Spotify che trovi in fondo a questa pagina. 
-Oggi i tuoi compiti saranno quelli di creare un’applicazione React da quel progetto e gestirne lo stato in Redux.
-
-Features:
-    1. Riscrivi l’applicazione utilizzando React, mantenendo le funzionalità attuali invariate 
-       (non dimenticare le rotte per gestire le tre schermate principali e la funzione di ricerca nella sidebar)
-
-    2. Una volta completata, installa i pacchetti necessari per implementare Redux
-       Cliccando una canzone, il nome e i dettagli dovranno apparire nel “player musicale”, 
-       la sezione in fondo alla pagina che mostra i controlli di ascolto (usa Redux)
-
-    3. Accanto ad ogni canzone dovrai aggiungere la funzionalità per mettere “Mi piace” alla canzone. 
-       Da quel momento in avanti, qualunque volta la canzone apparirà, lo stato del “mi piace” dovrà riflettere quello salvato in Redux
-    
-    [EXTRA] Salva nello store Redux anche i risultati di ricerca che ottieni dalle API
-    [EXTRA] La possibilità di aggiungere canzoni ad altre playlist rispetto alla coda di riproduzione normale
 
 Search
 Parameter: query
@@ -46,8 +28,8 @@ Endpoint: https://striveschool-api.herokuapp.com/api/deezer/search?q={query}
 Example: https://striveschool-api.herokuapp.com/api/deezer/search?q=queen
 
 Hints:
-     Use the store to track which songs the user has liked and check accordingly every time you view a song.
-     Use the store to keep track of what song is currently playing.
+- Use the store to track which songs the user has liked and check accordingly every time you view a song.
+- Use the store to keep track of what song is currently playing.
      
      
      
